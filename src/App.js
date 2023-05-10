@@ -1,23 +1,30 @@
 import './App.css';
-import logo from './logo.svg';
+import styles from './App.module.scss';
+import './index.css';
+// import { ReactComponent as StarLogo } from './images/StarLogo.svg';
 
 export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <section className={styles.heroSection}></section>
+      <section className={styles.featureSection}>
+        <div>
+          <h2>
+            <img src="assets/images/spells.svg" alt="" />
+            Wave Your Magic Wand
+          </h2>
+          <p>
+            Design with the power of AI to do everything from copywriting to
+            generating unique icons from text.
+          </p>
+          zui
+        </div>
+      </section>
+      <section className={styles.actionsSection} />
+      <section className={styles.diagramSection} />
+      <section className={styles.pricingSection} />
+      <section className={styles.tweetsSection} />
+      <footer>my footer</footer>
+    </>
   );
 }

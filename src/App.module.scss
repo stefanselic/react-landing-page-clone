@@ -1,0 +1,58 @@
+.heroSection {
+  height: 1256px;
+  color: #fff;
+  background-color: rgb(151, 71, 255);
+  max-width: flex;
+
+  header {
+    height: 154px;
+  }
+}
+
+.featureSection {
+  height: 560px;
+  color: #fff;
+  background-color: #333333;
+  div {
+    h2 {
+      margin-top: 0px;
+      width: 720px;
+    }
+    p {
+      align-items: center;
+      width: 720px;
+      box-sizing: border-box;
+      text-align: center;
+      justify-content: center;
+    }
+  }
+}
+
+.actionsSection {
+  height: 1044px;
+  color: #333333;
+  background-color: #edeef0;
+}
+
+.diagramSection {
+  height: 1176px;
+  color: #fff;
+  background-color: #333333;
+}
+
+.pricingSection {
+  height: 944px;
+  color: #ffffff;
+  background-color: #7b61ff;
+}
+
+.tweetsSection {
+  width: 100%;
+  height: 960px;
+  background-image: url(https://diagram.imgix.net/magician/overlay-min.png?s=e463f84…);
+  mix-blend-mode: color-dodge;
+  background-size: cover;
+  position: absolute;
+  z-index: 1;
+  background-position: top center;
+}
