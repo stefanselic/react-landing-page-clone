@@ -1,0 +1,27 @@
+.footerSection {
+  color: #fff;
+  background-color: rgb(151, 71, 255);
+
+  // .heroSection__header
+  &__header {
+    padding: 48px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__headerLogo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+
+  &__navigation {
+    display: flex;
+    gap: 24px;
+  }
+
+  &__navigationLink {
+    color: #fff;
+    text-decoration: none;
+  }
+}

@@ -4,7 +4,7 @@ Rebuild it in React (looking at the code as little as possible).
 
 ## TODO
 
-- [ ] Choose a landing page from [Landingfolio](https://www.landingfolio.com/)
+- [x] Choose a landing page from [Landingfolio](https://www.landingfolio.com/)
 - [ ] Copy all elements of the landing page
 - [ ] Style the elements
 
@@ -22,9 +22,6 @@ Rebuild it in React (looking at the code as little as possible).
 - [ ] Project has been [imported into CodeSandbox](https://learn.upleveled.io/courses/bootcamp-pern/modules/cheatsheet-tasks/#codesandbox) and a comment has been added below with the sandbox URL
 - [ ] [Drone bot](https://learn.upleveled.io/courses/bootcamp-pern/modules/cheatsheet-tasks/#upleveled-drone) has been tagged and responded with a passing message
 - [ ] Correct GitHub commit message format (see [Writing Commit Messages](https://learn.upleveled.io/courses/bootcamp-pern/modules/cheatsheet-git-github/#writing-commit-messages))
-
-
-
 
 # Getting Started with Create React App
 
