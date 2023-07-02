@@ -6,8 +6,7 @@ import heartSrc from './images/heart.svg';
 import downloadSrc from './images/download.svg';
 import diagramSrc from './images/diagram.svg';
 import figmaTextSrc from './images/figma-text.svg';
-import LinkButton from './components/LinkButton';
-import TitleH2 from './components/TitleH2';
+import LinkButton from './_components/LinkButton/LinkButton';
 
 export default function HeroSection() {
   return (
@@ -34,15 +33,15 @@ export default function HeroSection() {
         </nav>
       </header>
       <div className={styles.heroSection__content}>
-        <TitleH2 text="Every little thing it does is magic" />
-        <h2 className={styles.heroSection__subtitle}>
+        <h2>Every little thing it does is magic</h2>
+        <p className={styles.heroSection__subtitle}>
           A magical design tool for Figma powered by AI.
-        </h2>
+        </p>
         <LinkButton href="/" text="Install on Figma" iconSrc={figmaSrc} />
         <div className={styles.heroSection__heroImageWrapper}>
           <img
             src={magicHeroSrc}
-            alt=""
+            alt="magicheroicon"
             className={styles.heroSection__heroImage}
           />
         </div>
@@ -66,13 +65,13 @@ export default function HeroSection() {
           <div className={styles.heroSection__infoTextWrapper}>
             <span>Made by</span>
             <div>
-              <img src={diagramSrc} alt="" />
+              <img src={diagramSrc} alt="diagram" />
             </div>
           </div>
           <div className={styles.heroSection__infoTextWrapper}>
             <span>Works with</span>
             <div>
-              <img src={figmaTextSrc} alt="" />
+              <img src={figmaTextSrc} alt="figmatext" />
             </div>
           </div>
         </div>

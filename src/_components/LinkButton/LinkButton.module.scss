@@ -1,0 +1,30 @@
+.linkButton {
+  background: linear-gradient(180deg, #1ce28f 0%, #15ab6c 100%);
+  box-shadow: inset 0px 2px 0px rgba(255, 255, 255, 0.16),
+    0 0 0 2px rgba(0, 0, 0, 0.12);
+  filter: drop-shadow(0px 2px 14px rgba(0, 0, 0, 0.15));
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.16);
+  padding: 12px 24px;
+  margin-bottom: 40px;
+  border-radius: 48px;
+
+  color: #fff;
+  display: flex;
+  gap: 10px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.linkButton__Secondary {
+  background: none;
+  border: 2px solid rgba(255, 255, 255, 0.12);
+  color: var(--white);
+  cursor: default;
+}
+
+.linkButton.imageWrapper {
+  display: flex;
+}
